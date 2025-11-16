@@ -26,12 +26,16 @@ This is an initial MVP using MobileNetV3 Small, selected for its computational e
 Dataset structure:
 ```
 train/
-├── NORMAL/         # 1341 images
-└── PNEUMONIA/      # 3875 images
+├── NORMAL/         
+└── PNEUMONIA/      
 
 val/
-├── NORMAL/         # 234 images
-└── PNEUMONIA/      # 390 images
+├── NORMAL/         
+└── PNEUMONIA/   
+
+test/
+├── NORMAL/         
+└── PNEUMONIA/
 ```
 
 Preprocessing steps:
