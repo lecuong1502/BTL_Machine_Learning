@@ -87,7 +87,7 @@ streamlit run app.py
 Features:
 - Image upload
 - Adjustable confidence threshold
-- Bilingual support (English/Portuguese)
+- Bilingual support (English/Vietnamese)
 - Classification results visualization
 
 ### Jupyter Notebook
