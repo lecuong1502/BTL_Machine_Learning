@@ -1,8 +1,5 @@
 # Pneumonia Classification from Chest X-rays Using MobileNetV3
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![PyTorch](https://img.shields.io/badge/PyTorch-1.9+-orange.svg)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.10+-green.svg)
 
 ## Overview
 
@@ -10,7 +7,6 @@ This project implements a binary classification model using deep learning to dis
 
 This is an initial MVP using MobileNetV3 Small, selected for its computational efficiency and fast training capabilities, facilitating rapid development with limited local resources. Future improvements are expected to increase accuracy by utilizing more robust architectures and larger datasets.
 
-**Live demo available here:** [AI-Powered Pneumonia Classifier](https://ai-powered-pneumonia-classifier-for-chest-x-rays.streamlit.app/)
 
 ## Model Architecture
 
@@ -99,8 +95,6 @@ pip install jupyter
 jupyter notebook pneumonia_analysis.ipynb
 ```
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/MVP-AI-Powered-Pneumonia-Classifier-for-Chest-X-rays/blob/main/pneumonia_analysis.ipynb)
-
 
 ## Troubleshooting
 
@@ -112,12 +106,9 @@ jupyter notebook pneumonia_analysis.ipynb
 
 This project is intended for educational and research purposes only and is not suitable for clinical diagnosis or decision-making. Always consult healthcare professionals for medical advice.
 
-## Contributors
-
-- Alexandre Amaral
 
 ## References
 
 1. Wang X, Peng Y, Lu L, Lu Z, Bagheri M, Summers RM. ChestX-ray8: Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases. IEEE CVPR 2017.
-2. Howard, A., Sandler, M., Chu, G., Chen, L.-C., Chen, B., Tan, M., Wang, W., Zhu, Y., Pang, R., Vasudevan, V., Le, Q.V., Adam, H. Searching for MobileNetV3. ICCV 2019.
-3. Rajpurkar P, Irvin J, Zhu K, et al. CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning. 2017.
+2. Howard, A., Sandler, M., Chu, G., Chen, L.-C., Chen, B., Tan, M., Wang, W., Zhu, Y., Pang, R., Vasudevan, V., Le, Q.V., Adam, H. Searching for MobileNetV3. ICCV 2019. [paper](https://arxiv.org/pdf/1905.02244)
+3. Rajpurkar P, Irvin J, Zhu K, et al. CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning. 2017. [paper](https://arxiv.org/pdf/1711.05225)
