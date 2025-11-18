@@ -1045,7 +1045,7 @@ def main():
     st.markdown(
         f"""
         <div class="footer">
-            {t['developed_by']} <a href="https://github.com/alexandre-amaral" target="_blank">Alexandre Amaral</a>   - {current_year} 
+            {t['developed_by']} <a href="https://github.com/lecuong1502" target="_blank">Le Kien Cuong</a>   - {current_year} 
         </div>
         """,
         unsafe_allow_html=True
