@@ -69,8 +69,7 @@ Preprocessing steps:
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/MVP-AI-Powered-Pneumonia-Classifier-for-Chest-X-rays.git
-cd MVP-AI-Powered-Pneumonia-Classifier-for-Chest-X-rays
+git clone https://github.com/lecuong1502/BTL_Machine_Learning.git 
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
